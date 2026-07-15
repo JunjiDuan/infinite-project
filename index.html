@@ -1,49 +1,144 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Infinite Project is an independent collection of thoughtful applications, open-source tools and digital experiments by Junji Duan.">
-  <meta name="theme-color" content="#f7f7f3">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Infinite Project is an independent collection of thoughtful applications, open-source tools and digital experiments by 行歌_JD.">
+  <meta name="theme-color" content="#f7f7f5">
   <meta property="og:title" content="Infinite Project — Software without boundaries">
-  <meta property="og:description" content="Independent applications, open-source tools and digital experiments.">
-  <meta property="og:type" content="website"><meta property="og:url" content="https://JunjiDuan.github.io/infinite-project/">
+  <meta property="og:description" content="Independent applications, open-source tools and digital experiments designed with clarity and care.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://junjiduan.github.io/infinite-project/">
   <title>Infinite Project — Software without boundaries</title>
-  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml"><link rel="manifest" href="site.webmanifest"><link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header"><div class="container navbar">
-  <a class="brand" href="#top"><img class="brand-mark" src="assets/icons/icon.svg" alt=""><span>Infinite Project</span></a>
-  <nav class="nav-links" data-menu aria-label="Primary navigation"><a href="#projects">Projects</a><a href="#principles">Principles</a><a href="#about">About</a><a href="https://JunjiDuan.github.io/">Creator ↗</a></nav>
-  <div class="nav-actions"><button class="icon-button" type="button" data-theme-toggle aria-label="Switch theme"><span data-theme-icon>◐</span></button><button class="menu-button" type="button" data-menu-button aria-expanded="false" aria-label="Open menu">☰</button></div>
-</div></header>
-<main id="main">
-  <section class="hero" id="top"><div class="container project-hero">
-    <div data-reveal><p class="eyebrow">Independent software ecosystem</p><h1>Ideas without <span>boundaries.</span></h1><p class="hero-copy">Infinite Project is a growing collection of applications, open-source tools and digital experiments designed around clarity, adaptability and meaningful everyday use.</p><div class="hero-actions"><a class="button" href="#projects">Explore projects ↓</a><a class="button secondary" href="https://github.com/JunjiDuan" target="_blank" rel="noreferrer">View GitHub ↗</a></div></div>
-    <div class="hero-symbol" data-reveal aria-hidden="true"><span>∞</span></div>
-  </div></section>
+  <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
 
-  <section class="section"><div class="container"><p class="manifesto" data-reveal>Infinite Project is not a single app. It is a place for focused products that begin with a real problem, respect the user’s attention and adapt naturally to different devices.</p></div></section>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="#top" data-i18n-aria-label="brandHomeLabel" aria-label="Infinite Project home">
+        <img class="brand-mark" src="./assets/icons/icon.svg" alt="">
+        <span>Infinite Project</span>
+      </a>
 
-  <section class="section" id="projects"><div class="container">
-    <div class="section-heading" data-reveal><div><p class="eyebrow">Featured project</p><h2>Infinite Reader</h2></div><p>The first complete product within Infinite Project: a modern EPUB reader for Android phones, tablets and foldable devices.</p></div>
-    <article class="featured-project" data-reveal>
-      <div><p class="eyebrow">Android · EPUB · Adaptive UI</p><h3 style="font-size:clamp(2.4rem,5vw,4.8rem);line-height:1;letter-spacing:-.05em;margin:.35rem 0 1.2rem;">Reading, designed for every screen.</h3><p style="color:var(--muted);max-width:560px;">Infinite Reader focuses on comfortable long-form reading, dual-page layouts, natural page-turn interactions and thoughtful support for foldables and tablets.</p><div class="tag-list"><span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span><span class="tag">Material 3</span><span class="tag">Readium</span></div><div class="hero-actions"><a class="button" href="https://JunjiDuan.github.io/infinite-reader/">Visit Infinite Reader →</a><a class="button secondary" href="https://github.com/JunjiDuan/infinite-reader">Source code ↗</a></div></div>
-      <div class="reader-art"><img src="assets/images/reader-logo.svg" alt="Infinite Reader book and infinity logo"></div>
-    </article>
-  </div></section>
+      <nav class="nav-links" id="primary-navigation" data-menu data-i18n-aria-label="primaryNavLabel" aria-label="Primary navigation">
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#principles" data-i18n="navPrinciples">Principles</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="https://github.com/JunjiDuan" target="_blank" rel="noreferrer">
+          <span data-i18n="navCreator">Creator</span><span aria-hidden="true"> ↗</span>
+        </a>
+      </nav>
 
-  <section class="section" id="principles"><div class="container">
-    <div class="section-heading" data-reveal><div><p class="eyebrow">Principles</p><h2>How projects are shaped.</h2></div><p>A small set of principles keeps each product recognisable while allowing it to develop its own purpose and identity.</p></div>
-    <div class="grid three">
-      <article class="card" data-reveal><span class="principle-number">01 · SIMPLE</span><h3>Clear by default</h3><p>Interfaces should reveal what matters and remove unnecessary visual or cognitive noise.</p></article>
-      <article class="card" data-reveal><span class="principle-number">02 · ADAPTIVE</span><h3>Natural everywhere</h3><p>Software should feel intentional across phones, tablets, foldables and larger displays.</p></article>
-      <article class="card" data-reveal><span class="principle-number">03 · OPEN</span><h3>Built to be learned from</h3><p>Projects can document their decisions, share progress and encourage constructive improvement.</p></article>
+      <div class="nav-actions">
+        <button class="icon-button" type="button" data-theme-toggle data-i18n-aria-label="themeDarkLabel" aria-label="Switch to dark mode">
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.2A8.5 8.5 0 0 1 8.8 4 8.5 8.5 0 1 0 20 15.2Z"/></svg>
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+        </button>
+
+        <div class="language-control">
+          <button class="icon-button" type="button" data-language-button aria-expanded="false" aria-haspopup="menu" aria-controls="language-menu" data-i18n-aria-label="languageButtonLabel" aria-label="Choose language">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3.5 9h17M3.5 15h17M12 3c2.2 2.4 3.3 5.4 3.3 9s-1.1 6.6-3.3 9c-2.2-2.4-3.3-5.4-3.3-9S9.8 5.4 12 3Z"/></svg>
+          </button>
+          <div class="language-menu" id="language-menu" data-language-menu role="menu" data-i18n-aria-label="languageMenuLabel" aria-label="Language" hidden>
+            <button type="button" role="menuitemradio" data-language="en" aria-checked="true"><span>English</span><span class="language-check" aria-hidden="true">✓</span></button>
+            <button type="button" role="menuitemradio" data-language="zh-CN" aria-checked="false"><span>中文（简体）</span><span class="language-check" aria-hidden="true">✓</span></button>
+            <button type="button" role="menuitemradio" data-language="zh-TW" aria-checked="false"><span>中文（繁體）</span><span class="language-check" aria-hidden="true">✓</span></button>
+            <button type="button" role="menuitemradio" data-language="fr" aria-checked="false"><span>Français</span><span class="language-check" aria-hidden="true">✓</span></button>
+            <button type="button" role="menuitemradio" data-language="es" aria-checked="false"><span>Español</span><span class="language-check" aria-hidden="true">✓</span></button>
+          </div>
+        </div>
+
+        <button class="menu-button" type="button" data-menu-button aria-expanded="false" aria-controls="primary-navigation" data-i18n-aria-label="menuOpenLabel" aria-label="Open menu">
+          <svg class="menu-icon menu-icon-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="menu-icon menu-icon-close" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
     </div>
-  </div></section>
+  </header>
 
-  <section class="section" id="about"><div class="container"><div class="section-heading" data-reveal><div><p class="eyebrow">About</p><h2>Created independently.</h2></div><p>Infinite Project is created by Junji Duan, a computer science graduate and artificial intelligence student based in Sydney. It serves as the shared home for independent applications and experiments that may grow over time.</p></div><a class="card-link" href="https://JunjiDuan.github.io/">Visit Junji’s personal homepage →</a></div></section>
-</main>
-<footer class="site-footer"><div class="container footer-row"><span>© <span data-year></span> Infinite Project</span><div class="footer-links"><a href="https://JunjiDuan.github.io/">Creator</a><a href="https://github.com/JunjiDuan">GitHub</a><a href="https://JunjiDuan.github.io/infinite-reader/">Infinite Reader</a></div></div></footer>
-<script src="assets/js/main.js" defer></script>
-</body></html>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container project-hero">
+        <div data-reveal>
+          <p class="eyebrow" data-i18n="heroEyebrow">Independent software ecosystem</p>
+          <h1 data-i18n-html="heroTitle">Ideas without <span>boundaries.</span></h1>
+          <p class="hero-copy" data-i18n="heroCopy">Infinite Project is a growing collection of applications, open-source tools and digital experiments designed around clarity, adaptability and meaningful everyday use.</p>
+          <div class="hero-actions">
+            <a class="button" href="#projects"><span data-i18n="exploreProjects">Explore projects</span><span aria-hidden="true">↓</span></a>
+            <a class="button secondary" href="https://github.com/JunjiDuan" target="_blank" rel="noreferrer"><span data-i18n="viewGitHub">View GitHub</span><span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-symbol" data-reveal aria-hidden="true"><span>∞</span></div>
+      </div>
+    </section>
+
+    <section class="section manifesto-section">
+      <div class="container"><p class="manifesto" data-reveal data-i18n="manifesto">Infinite Project is not a single app. It is a place for focused products that begin with a real problem, respect the user’s attention and adapt naturally to different devices.</p></div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div><p class="eyebrow" data-i18n="featuredEyebrow">Featured project</p><h2>Infinite Reader</h2></div>
+          <p data-i18n="featuredIntro">The first complete product within Infinite Project: a modern EPUB reader for Android phones, tablets and foldable devices.</p>
+        </div>
+
+        <article class="featured-project" data-reveal>
+          <div class="featured-copy">
+            <p class="eyebrow">Android · EPUB · <span data-i18n="adaptiveUi">Adaptive UI</span></p>
+            <h3 data-i18n="readerTitle">Reading, designed for every screen.</h3>
+            <p data-i18n="readerCopy">Infinite Reader focuses on comfortable long-form reading, dual-page layouts, natural page-turn interactions and thoughtful support for foldables and tablets.</p>
+            <div class="tag-list" data-i18n-aria-label="technologiesLabel" aria-label="Technologies"><span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span><span class="tag">Material 3</span><span class="tag">Readium</span></div>
+            <div class="hero-actions">
+              <a class="button" href="https://JunjiDuan.github.io/infinite-reader/" target="_blank" rel="noreferrer"><span data-i18n="visitReader">Visit Infinite Reader</span><span aria-hidden="true">→</span></a>
+              <a class="text-button" href="https://github.com/JunjiDuan/infinite-reader" target="_blank" rel="noreferrer"><span data-i18n="sourceCode">Source code</span><span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="reader-visual">
+            <div class="reader-glow" aria-hidden="true"></div>
+            <img src="./assets/images/reader-logo.svg" data-i18n-alt="readerLogoAlt" alt="Infinite Reader book and infinity symbol">
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="principles">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div><p class="eyebrow" data-i18n="principlesEyebrow">Principles</p><h2 data-i18n="principlesTitle">How projects are shaped.</h2></div>
+          <p data-i18n="principlesIntro">A small set of principles keeps each product recognisable while allowing it to develop its own purpose and identity.</p>
+        </div>
+        <div class="principles-grid">
+          <article class="card" data-reveal><span class="principle-number" data-i18n="principleOneLabel">01 · SIMPLE</span><h3 data-i18n="principleOneTitle">Clear by default</h3><p data-i18n="principleOneCopy">Interfaces should reveal what matters and remove unnecessary visual or cognitive noise.</p></article>
+          <article class="card" data-reveal><span class="principle-number" data-i18n="principleTwoLabel">02 · ADAPTIVE</span><h3 data-i18n="principleTwoTitle">Natural everywhere</h3><p data-i18n="principleTwoCopy">Software should feel intentional across phones, tablets, foldables and larger displays.</p></article>
+          <article class="card" data-reveal><span class="principle-number" data-i18n="principleThreeLabel">03 · OPEN</span><h3 data-i18n="principleThreeTitle">Built to be learned from</h3><p data-i18n="principleThreeCopy">Projects can document their decisions, share progress and encourage constructive improvement.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-layout" data-reveal>
+        <div><p class="eyebrow" data-i18n="aboutEyebrow">About</p><h2 data-i18n="aboutTitle">Created independently.</h2></div>
+        <div><p data-i18n="aboutCopy">Infinite Project is created by 行歌_JD. It is a shared home for independent applications and experiments that can grow thoughtfully over time.</p><a class="card-link" href="https://github.com/JunjiDuan" target="_blank" rel="noreferrer"><span data-i18n="creatorLink">Visit the creator on GitHub</span><span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© <span data-year></span> Infinite Project</span>
+      <nav class="footer-links" data-i18n-aria-label="footerNavLabel" aria-label="Footer navigation">
+        <a href="https://github.com/JunjiDuan" target="_blank" rel="noreferrer" data-i18n="navCreator">Creator</a>
+        <a href="https://github.com/JunjiDuan" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://JunjiDuan.github.io/infinite-reader/" target="_blank" rel="noreferrer">Infinite Reader</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>
