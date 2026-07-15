@@ -1,3 +1,4 @@
+(() => {
 const { supportedLanguages, translations } = window.InfiniteProjectI18n;
 
 const root = document.documentElement;
@@ -203,3 +204,4 @@ document.querySelectorAll("[data-year]").forEach((element) => {
 });
 
 applyLanguage(currentLanguage, { persist: false });
+})();
