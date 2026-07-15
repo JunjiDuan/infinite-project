@@ -1,4 +1,4 @@
-export const translations = {
+const translations = {
   en: {
     metaTitle: "Infinite Project — Software without boundaries",
     metaDescription: "Infinite Project is an independent collection of thoughtful applications, open-source tools and digital experiments by 行歌_JD.",
@@ -251,4 +251,9 @@ export const translations = {
   }
 };
 
-export const supportedLanguages = Object.keys(translations);
+const supportedLanguages = Object.keys(translations);
+
+window.InfiniteProjectI18n = Object.freeze({
+  translations,
+  supportedLanguages
+});

@@ -1,4 +1,4 @@
-import { supportedLanguages, translations } from "./translations.js";
+const { supportedLanguages, translations } = window.InfiniteProjectI18n;
 
 const root = document.documentElement;
 const languageStorageKey = "infinite-project-language";
@@ -192,6 +192,7 @@ if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-mot
       observer.unobserve(entry.target);
     });
   }, { threshold: 0.12 });
+  root.classList.add("reveal-ready");
   revealElements.forEach((element) => observer.observe(element));
 } else {
   revealElements.forEach((element) => element.classList.add("is-visible"));
