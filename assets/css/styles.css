@@ -232,6 +232,7 @@ button:focus-visible {
 .featured-project + .section-heading { margin-top: clamp(3rem, 6vw, 5rem); }
 .section-heading h2, .about-layout h2 { margin: 0; font-size: clamp(2.15rem, 4.2vw, 3.75rem); letter-spacing: -0.045em; line-height: 1.05; }
 .section-heading > p, .about-layout > div:last-child > p { max-width: 650px; margin: 0.3rem 0 0; color: var(--muted); }
+.voyager-heading h2 { font-size: clamp(1.8rem, 3.4vw, 3.2rem); white-space: nowrap; }
 
 .featured-project {
   display: grid;
