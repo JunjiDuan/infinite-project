@@ -275,6 +275,31 @@ button:focus-visible {
   height: auto;
 }
 
+.voyager-visual {
+  position: relative;
+  display: grid;
+  min-height: 400px;
+  place-items: center;
+}
+
+.voyager-mark {
+  display: grid;
+  width: min(100%, 410px);
+  aspect-ratio: 1;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  background: var(--surface);
+  box-shadow: 0 12px 32px rgba(38, 37, 47, 0.07);
+}
+
+.voyager-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .principles-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .card { min-width: 0; border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); padding: clamp(1.35rem, 3vw, 2rem); }
 .card h3 { margin: 0.25rem 0 0.65rem; font-size: 1.35rem; letter-spacing: -0.025em; }
@@ -314,6 +339,7 @@ button:focus-visible {
   .project-hero { grid-template-columns: minmax(0, 1.25fr) minmax(230px, 0.75fr); }
   .featured-project { grid-template-columns: minmax(0, 1fr) minmax(280px, 0.82fr); }
   .reader-visual { min-height: 340px; }
+  .voyager-visual { min-height: 340px; }
 }
 
 @media (max-width: 720px) {
@@ -323,6 +349,8 @@ button:focus-visible {
   .section-heading, .about-layout { gap: 0.9rem; }
   .reader-visual { min-height: min(88vw, 380px); order: -1; }
   .reader-mark { width: min(100%, 360px); }
+  .voyager-visual { min-height: min(88vw, 380px); order: -1; }
+  .voyager-mark { width: min(100%, 360px); }
   .footer-row { align-items: flex-start; flex-direction: column; }
 }
 
@@ -339,6 +367,7 @@ button:focus-visible {
   .hero-actions .button, .hero-actions .text-button { width: 100%; }
   .featured-project { border-radius: 24px; }
   .reader-visual { min-height: 280px; }
+  .voyager-visual { min-height: 280px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
