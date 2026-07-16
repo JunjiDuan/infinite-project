@@ -1,5 +1,5 @@
 # Infinite Project
 
-Repository name: `infinite-project`
+Repository name: `infinite-project Official Website`
 
-Published URL: `https://junjiduan.github.io/infinite-project/`
+Published URL: `https://infinite-project.top`
