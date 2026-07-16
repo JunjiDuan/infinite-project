@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://JunjiDuan.github.io/infinite-reader/sitemap.xml

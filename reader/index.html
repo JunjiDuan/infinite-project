@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Infinite Reader is a focused, adaptive EPUB reader for Android phones, tablets and foldable devices.">
+  <meta name="theme-color" content="#f7f7f5">
+  <meta property="og:title" content="Infinite Reader 鈥?Reading without boundaries">
+  <meta property="og:description" content="A thoughtful EPUB reader designed for every Android screen.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://infinite-project.top/reader/">
+  <title>Infinite Reader 鈥?Reading without boundaries</title>
+  <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="#top" data-i18n-aria-label="brandHomeLabel" aria-label="Infinite Reader home">
+        <img class="brand-mark" src="./assets/icons/icon.svg" alt="">
+        <span>Infinite Reader</span>
+      </a>
+      <nav class="nav-links" id="primary-navigation" data-menu data-i18n-aria-label="primaryNavLabel" aria-label="Primary navigation">
+        <a href="#features" data-i18n="navFeatures">Features</a>
+        <a href="#devices" data-i18n="navDevices">Devices</a>
+        <a href="#download" data-i18n="navDownload">Download</a>
+        <a href="../" target="_blank" rel="noreferrer">Infinite Project <span aria-hidden="true">鈫?/span></a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-button" type="button" data-theme-toggle data-i18n-aria-label="themeDarkLabel" aria-label="Switch to dark mode">
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.2A8.5 8.5 0 0 1 8.8 4 8.5 8.5 0 1 0 20 15.2Z"/></svg>
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+        </button>
+        <div class="language-control">
+          <button class="icon-button" type="button" data-language-button aria-expanded="false" aria-haspopup="menu" aria-controls="language-menu" data-i18n-aria-label="languageButtonLabel" aria-label="Choose language">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3.5 9h17M3.5 15h17M12 3c2.2 2.4 3.3 5.4 3.3 9s-1.1 6.6-3.3 9c-2.2-2.4-3.3-5.4-3.3-9S9.8 5.4 12 3Z"/></svg>
+          </button>
+          <div class="language-menu" id="language-menu" data-language-menu role="menu" data-i18n-aria-label="languageMenuLabel" aria-label="Language" hidden>
+            <button type="button" role="menuitemradio" data-language="en" aria-checked="true"><span>English</span><span class="language-check" aria-hidden="true">鉁?/span></button>
+            <button type="button" role="menuitemradio" data-language="zh-CN" aria-checked="false"><span>涓枃锛堢畝浣擄級</span><span class="language-check" aria-hidden="true">鉁?/span></button>
+            <button type="button" role="menuitemradio" data-language="zh-TW" aria-checked="false"><span>涓枃锛堢箒楂旓級</span><span class="language-check" aria-hidden="true">鉁?/span></button>
+            <button type="button" role="menuitemradio" data-language="fr" aria-checked="false"><span>Fran莽ais</span><span class="language-check" aria-hidden="true">鉁?/span></button>
+            <button type="button" role="menuitemradio" data-language="es" aria-checked="false"><span>Espa帽ol</span><span class="language-check" aria-hidden="true">鉁?/span></button>
+          </div>
+        </div>
+        <button class="menu-button" type="button" data-menu-button aria-expanded="false" aria-controls="primary-navigation" data-i18n-aria-label="menuOpenLabel" aria-label="Open menu">
+          <svg class="menu-icon menu-icon-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="menu-icon menu-icon-close" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container reader-hero">
+        <div data-reveal>
+          <p class="eyebrow" data-i18n="heroEyebrow">Adaptive EPUB reader for Android</p>
+          <h1 data-i18n-html="heroTitle">Reading without <span>boundaries.</span></h1>
+          <p class="hero-copy" data-i18n="heroCopy">Infinite Reader is a focused EPUB reading experience that adapts naturally to Android phones, tablets and foldable devices.</p>
+          <div class="hero-actions">
+            <a class="button" href="https://github.com/JunjiDuan/infinite-reader-demo/releases/latest" target="_blank" rel="noreferrer"><span data-i18n="downloadLatest">Download latest APK</span><span aria-hidden="true">鈫?/span></a>
+            <a class="button secondary" href="https://github.com/JunjiDuan/infinite-reader-demo" target="_blank" rel="noreferrer"><span data-i18n="viewSource">View source</span><span aria-hidden="true">鈫?/span></a>
+          </div>
+          <div class="tag-list" data-i18n-aria-label="technologiesLabel" aria-label="Technologies"><span class="tag">EPUB</span><span class="tag">Android</span><span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span></div>
+        </div>
+        <div class="reading-preview" data-reveal data-i18n-aria-label="previewLabel" aria-label="Infinite Reader interface illustration">
+          <div class="preview-toolbar" aria-hidden="true"><span></span><span>Infinite Reader</span><span></span></div>
+          <div class="page-spread" aria-hidden="true">
+            <div class="preview-page"><p class="chapter-label">04</p><h2>A Quiet Chapter</h2><div class="text-lines"><i></i><i></i><i></i><i></i><i></i><i></i></div><small>42</small></div>
+            <div class="preview-page second-page"><div class="text-lines"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><small>43</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section statement-section"><div class="container"><p class="statement" data-reveal data-i18n="statement">A calm reading space that keeps the book at the centre and lets the interface quietly adapt around it.</p></div></section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-heading" data-reveal><div><p class="eyebrow" data-i18n="featuresEyebrow">Core experience</p><h2 data-i18n="featuresTitle">Built around reading.</h2></div><p data-i18n="featuresIntro">Restrained controls, considered typography and adaptive layouts support long-form reading without competing for attention.</p></div>
+        <div class="feature-grid">
+          <article class="card" data-reveal><span class="feature-number">01</span><h3 data-i18n="featureOneTitle">Focused EPUB reading</h3><p data-i18n="featureOneCopy">Clear typography and quiet controls keep attention on the book.</p></article>
+          <article class="card" data-reveal><span class="feature-number">02</span><h3 data-i18n="featureTwoTitle">Dual-page layouts</h3><p data-i18n="featureTwoCopy">Book-like spreads use the width of tablets and unfolded displays naturally.</p></article>
+          <article class="card" data-reveal><span class="feature-number">03</span><h3 data-i18n="featureThreeTitle">Adaptive interface</h3><p data-i18n="featureThreeCopy">Layouts respond thoughtfully to each screen instead of simply stretching.</p></article>
+          <article class="card" data-reveal><span class="feature-number">04</span><h3 data-i18n="featureFourTitle">Natural page turns</h3><p data-i18n="featureFourCopy">Transitions preserve continuity, context and the rhythm of reading.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="devices">
+      <div class="container">
+        <div class="section-heading" data-reveal><div><p class="eyebrow" data-i18n="devicesEyebrow">Designed to adapt</p><h2 data-i18n="devicesTitle">One library. Every form.</h2></div><p data-i18n="devicesIntro">Infinite Reader aims to feel intentional whether the display is narrow, wide or able to transform between the two.</p></div>
+        <div class="device-grid">
+          <article class="device-card" data-reveal><div class="device-outline phone" aria-hidden="true"></div><div><h3 data-i18n="phoneTitle">Android phones</h3><p data-i18n="phoneCopy">Comfortable single-page reading with controls kept within reach.</p></div></article>
+          <article class="device-card" data-reveal><div class="device-outline tablet" aria-hidden="true"></div><div><h3 data-i18n="tabletTitle">Android tablets</h3><p data-i18n="tabletCopy">More room for typography, margins and dual-page reading.</p></div></article>
+          <article class="device-card" data-reveal><div class="device-outline fold" aria-hidden="true"></div><div><h3 data-i18n="foldTitle">Foldable devices</h3><p data-i18n="foldCopy">Layouts respond to folding states and expanded inner displays.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="download">
+      <div class="container"><div class="cta-panel" data-reveal><p class="eyebrow" data-i18n="releaseEyebrow">Early development release</p><h2 data-i18n="releaseTitle">Try Infinite Reader.</h2><p data-i18n="releaseCopy">Download the latest APK from GitHub Releases, explore the source and follow the project as the reading experience continues to evolve.</p><div class="hero-actions"><a class="button" href="https://github.com/JunjiDuan/infinite-reader/releases/latest" target="_blank" rel="noreferrer"><span data-i18n="downloadApk">Download APK</span><span aria-hidden="true">鈫?/span></a><a class="button secondary" href="https://github.com/JunjiDuan/infinite-reader-demo/issues" target="_blank" rel="noreferrer"><span data-i18n="reportIssue">Report an issue</span><span aria-hidden="true">鈫?/span></a></div></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-row"><span>漏 <span data-year></span> Infinite Reader 路 Infinite Project</span><nav class="footer-links" data-i18n-aria-label="footerNavLabel" aria-label="Footer navigation"><a href="../" target="_blank" rel="noreferrer">Infinite Project</a><a href="./privacy.html" data-i18n="privacyLink">Privacy</a><a href="https://github.com/JunjiDuan/infinite-reader" target="_blank" rel="noreferrer">GitHub</a></nav></div></footer>
+
+  <script src="./assets/js/translations.js" defer></script>
+  <script src="./assets/js/main.js" defer></script>
+</body>
+</html>
+
