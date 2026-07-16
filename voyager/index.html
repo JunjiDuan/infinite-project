@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Infinite Voyager is a cross-platform browser designed to spark infinite possibility as you explore the web.">
+  <meta name="theme-color" content="#f7f7f5">
+  <meta property="og:title" content="Infinite Voyager — Browsing without boundaries">
+  <meta property="og:description" content="A cross-platform browser built to spark infinite possibility.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://infinite-project.top/voyager/">
+  <title>Infinite Voyager — Browsing without boundaries</title>
+  <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="#top" data-i18n-aria-label="brandHomeLabel" aria-label="Infinite Voyager home">
+        <img class="brand-mark" src="./assets/icons/icon.svg" alt="">
+        <span>Infinite Voyager</span>
+      </a>
+      <nav class="nav-links" id="primary-navigation" data-menu data-i18n-aria-label="primaryNavLabel" aria-label="Primary navigation">
+        <a href="#features" data-i18n="navFeatures">Features</a>
+        <a href="#platforms" data-i18n="navPlatforms">Platforms</a>
+        <a href="#download" data-i18n="navDownload">Follow</a>
+        <a href="../" target="_blank" rel="noreferrer">Infinite Project <span aria-hidden="true">↗</span></a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-button" type="button" data-theme-toggle data-i18n-aria-label="themeDarkLabel" aria-label="Switch to dark mode">
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.2A8.5 8.5 0 0 1 8.8 4 8.5 8.5 0 1 0 20 15.2Z"/></svg>
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+        </button>
+        <div class="language-control">
+          <button class="icon-button" type="button" data-language-button aria-expanded="false" aria-haspopup="menu" aria-controls="language-menu" data-i18n-aria-label="languageButtonLabel" aria-label="Choose language">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3.5 9h17M3.5 15h17M12 3c2.2 2.4 3.3 5.4 3.3 9s-1.1 6.6-3.3 9c-2.2-2.4-3.3-5.4-3.3-9S9.8 5.4 12 3Z"/></svg>
+          </button>
+          <div class="language-menu" id="language-menu" data-language-menu role="menu" data-i18n-aria-label="languageMenuLabel" aria-label="Language" hidden>
+            <button type="button" role="menuitemradio" data-language="en" aria-checked="true"><span>English</span><span class="language-check" aria-hidden="true">✓</span></button>
+            <button type="button" role="menuitemradio" data-language="zh-CN" aria-checked="false"><span>中文（简体）</span><span class="language-check" aria-hidden="true">✓</span></button>
+            <button type="button" role="menuitemradio" data-language="zh-TW" aria-checked="false"><span>中文（繁體）</span><span class="language-check" aria-hidden="true">✓</span></button>
+            <button type="button" role="menuitemradio" data-language="fr" aria-checked="false"><span>Français</span><span class="language-check" aria-hidden="true">✓</span></button>
+            <button type="button" role="menuitemradio" data-language="es" aria-checked="false"><span>Español</span><span class="language-check" aria-hidden="true">✓</span></button>
+          </div>
+        </div>
+        <button class="menu-button" type="button" data-menu-button aria-expanded="false" aria-controls="primary-navigation" data-i18n-aria-label="menuOpenLabel" aria-label="Open menu">
+          <svg class="menu-icon menu-icon-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="menu-icon menu-icon-close" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container voyager-hero">
+        <div data-reveal>
+          <p class="eyebrow" data-i18n="heroEyebrow">Cross-platform browser</p>
+          <h1 data-i18n-html="heroTitle">Browsing without <span>boundaries.</span></h1>
+          <p class="hero-copy" data-i18n="heroCopy">Infinite Voyager treats the web as an open space to explore — fast, adaptive, and quietly out of your way.</p>
+          <div class="hero-actions">
+            <a class="button" href="#" rel="noreferrer"><span data-i18n="viewOnGithub">View on GitHub</span><span aria-hidden="true">↗</span></a>
+            <a class="button secondary" href="../#principles"><span data-i18n="viewPrinciples">See the principles</span><span aria-hidden="true">→</span></a>
+          </div>
+          <div class="tag-list" data-i18n-aria-label="technologiesLabel" aria-label="Technologies"><span class="tag">Cross-platform</span><span class="tag">Desktop</span><span class="tag">Tablet</span><span class="tag">Mobile</span></div>
+        </div>
+        <div class="browser-frame" data-reveal data-i18n-aria-label="previewLabel" aria-label="Infinite Voyager interface illustration">
+          <div class="browser-titlebar" aria-hidden="true"><span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span></div>
+          <div class="browser-tabs" aria-hidden="true"><span class="browser-tab active"></span><span class="browser-tab"></span><span class="browser-tab"></span></div>
+          <div class="browser-address" aria-hidden="true">voyager://explore</div>
+          <div class="browser-canvas" aria-hidden="true">
+            <div class="site-tile accent"></div>
+            <div class="site-tile"></div>
+            <div class="site-tile"></div>
+            <div class="site-tile"></div>
+            <div class="site-tile"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section statement-section"><div class="container"><p class="statement" data-reveal data-i18n="statement">A browser that keeps exploration at the centre and lets the interface adapt quietly around it, on every device.</p></div></section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-heading" data-reveal><div><p class="eyebrow" data-i18n="featuresEyebrow">Core experience</p><h2 data-i18n="featuresTitle">Built for exploring.</h2></div><p data-i18n="featuresIntro">Restrained controls and adaptive layouts keep focus on what you're discovering, not on the browser itself.</p></div>
+        <div class="feature-grid">
+          <article class="card" data-reveal><span class="feature-number">01</span><h3 data-i18n="featureOneTitle">Infinite exploration</h3><p data-i18n="featureOneCopy">Move between tabs, links and ideas without losing your place or your train of thought.</p></article>
+          <article class="card" data-reveal><span class="feature-number">02</span><h3 data-i18n="featureTwoTitle">Cross-platform continuity</h3><p data-i18n="featureTwoCopy">Tabs, history and preferences carry over naturally between desktop, tablet and mobile.</p></article>
+          <article class="card" data-reveal><span class="feature-number">03</span><h3 data-i18n="featureThreeTitle">Adaptive interface</h3><p data-i18n="featureThreeCopy">Layouts respond thoughtfully to each screen instead of simply stretching.</p></article>
+          <article class="card" data-reveal><span class="feature-number">04</span><h3 data-i18n="featureFourTitle">Quietly out of the way</h3><p data-i18n="featureFourCopy">A calm chrome that steps back and lets the content lead.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="platforms">
+      <div class="container">
+        <div class="section-heading" data-reveal><div><p class="eyebrow" data-i18n="platformsEyebrow">Designed to adapt</p><h2 data-i18n="platformsTitle">One browser. Every device.</h2></div><p data-i18n="platformsIntro">Infinite Voyager aims to feel intentional whether you're at a desk, on a tablet or on the move.</p></div>
+        <div class="platform-grid">
+          <article class="platform-card" data-reveal><div class="platform-outline desktop" aria-hidden="true"></div><div><h3 data-i18n="desktopTitle">Desktop</h3><p data-i18n="desktopCopy">Full-width browsing with room for multiple tabs and workspaces.</p></div></article>
+          <article class="platform-card" data-reveal><div class="platform-outline tablet" aria-hidden="true"></div><div><h3 data-i18n="tabletTitle">Tablet</h3><p data-i18n="tabletCopy">Touch-friendly controls with more room for content and context.</p></div></article>
+          <article class="platform-card" data-reveal><div class="platform-outline mobile" aria-hidden="true"></div><div><h3 data-i18n="mobileTitle">Mobile</h3><p data-i18n="mobileCopy">Comfortable one-handed browsing with controls kept within reach.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="download">
+      <div class="container"><div class="cta-panel" data-reveal><p class="eyebrow" data-i18n="releaseEyebrow">Early development</p><h2 data-i18n="releaseTitle">Follow Infinite Voyager.</h2><p data-i18n="releaseCopy">Infinite Voyager is in early development. Source code and releases will appear on GitHub as the project takes shape.</p><div class="hero-actions"><a class="button" href="#" rel="noreferrer"><span data-i18n="viewRepository">View repository</span><span aria-hidden="true">→</span></a><a class="button secondary" href="#" rel="noreferrer"><span data-i18n="followProgress">Follow progress</span><span aria-hidden="true">↗</span></a></div></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-row"><span>© <span data-year></span> Infinite Voyager · Infinite Project</span><nav class="footer-links" data-i18n-aria-label="footerNavLabel" aria-label="Footer navigation"><a href="../" target="_blank" rel="noreferrer">Infinite Project</a><a href="./privacy.html" data-i18n="privacyLink">Privacy</a><a href="#" rel="noreferrer">GitHub</a></nav></div></footer>
+
+  <script src="./assets/js/translations.js" defer></script>
+  <script src="./assets/js/main.js" defer></script>
+</body>
+</html>
